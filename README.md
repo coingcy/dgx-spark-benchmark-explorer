@@ -21,8 +21,8 @@
 ## 文件
 
 - `index.html`：已构建、可独立部署的完整应用。
-- `src/`：页面布局、筛选与详情交互的作者源文件；使用共享Data组件接口。
-- `data/reviewed-benchmarks.json`：140条摘录、25项来源和统计口径，可供核对与再分析。
+- `DashboardContent.jsx`、`benchmark.css`：页面布局、筛选与详情交互的作者源文件；使用共享Data组件接口。
+- `reviewed-benchmarks.json`：140条摘录、25项来源和统计口径，可供核对与再分析。
 
 页面源文件为原始创作入口，不是独立npm构建项目；部署和离线阅读请使用已构建的`index.html`。更新数据后应重新生成页面，单独更改JSON不会自动改变内嵌数据。
 

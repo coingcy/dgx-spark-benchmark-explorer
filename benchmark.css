@@ -1,0 +1,11 @@
+.spark-bench-dashboard{min-width:0;}
+.spark-bench-dashboard .bench-pair{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:20px;}
+.spark-bench-dashboard .bench-pair>*{min-width:0;}
+.spark-bench-dashboard .bench-metrics{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;}
+.spark-bench-dashboard .bench-note{font-size:14px;line-height:1.8;color:var(--text-muted);max-width:1050px;}
+.bench-detail{display:grid;gap:0;margin:0;font-size:14px;line-height:1.7;}
+.bench-detail>div{display:grid;grid-template-columns:120px minmax(0,1fr);gap:16px;padding:10px 0;border-bottom:1px solid var(--border);}
+.bench-detail dt{color:var(--text-muted);}
+.bench-detail dd{margin:0;overflow-wrap:anywhere;}
+@media(max-width:900px){.spark-bench-dashboard .bench-pair{grid-template-columns:minmax(0,1fr);}}
+@media(max-width:520px){.spark-bench-dashboard .bench-metrics{grid-template-columns:minmax(0,1fr);}.bench-detail>div{grid-template-columns:90px minmax(0,1fr);gap:10px;}}
